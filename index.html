@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Encriptador de Texto | Challenge Alura </title>
+</head>
+<body>
+    <header>
+        <img src="./imagenes/logo.svg" alt="Logo Alura" class="logo">
+    </header>
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Ingrese el Texto Aquí"></textarea>
+            <div class="encriptador_aviso">
+                <img src="./imagenes/aviso.svg" alt="Imagen aviso" class="img_aviso">
+                <p class="texto_aviso"> Solo Letras Minúsculas y sin Acento</p>
+            </div>
+            <div class="encriptador_contenedor">
+                <button type="submit" class="btn_encriptar">Encriptar</button>
+                <button type="submit" class="btn_desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="tarjeta">
+            <div class="tarjeta_contenedor">
+                <img src="./imagenes/muñeco.svg" alt="Imagen muñeco" class="img_muñeco">
+                <p class="texto_uno">Ningun Mensaje fue Encontrado</p>
+                <p class="texto_dos">ingresa el Texto que deseas Encriptar o Desencriptar</p>
+            </div>
+            <textarea type="Mensaje" class="evaluar" readonly></textarea>
+            <button type="submit" class="btn_copiar">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <p class="desarrollo"> Desarrollado Por Dennis Sánchez </p>
+        <a href="https://www.linkedin.com/in/dennis-s%C3%A1nchez-7681a2293/">
+            <img src="./imagenes/linkedin.png" alt="logolink" class="linkedin">
+        </a>
+        <a href="https://www.twitch.tv/nenesanchez">
+            <img src="./imagenes/twitch.png" alt="logotwitch" class="twitch">
+        </a>
+        <a href="https://www.instagram.com/soy.nenesanchez/">
+            <img src="./imagenes/instagram.png" alt="logointagram" class="instagram">
+        </a>   
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
