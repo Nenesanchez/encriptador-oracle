@@ -272,7 +272,7 @@ footer{
     .encriptador_contenedor{
         display: flex;
         align-items: center;
-        top: 830px;
+        top: 820px;
   
     }
 
@@ -288,7 +288,7 @@ footer{
         display: flex;
         justify-content: center;
         align-items: flex-end;
-        top: 50px;
+        top: 80px;
     }
 
     .tarjeta_contenedor{
