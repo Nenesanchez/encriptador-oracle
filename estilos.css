@@ -316,6 +316,12 @@ footer{
         padding: 5px;
     }
 
+    .encriptar{
+        width: 730px;
+        height: 460px;
+
+    }
+
     footer{
         margin: 250px;
     }
