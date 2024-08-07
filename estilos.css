@@ -285,7 +285,7 @@ footer{
   
     .tarjeta{
         width: 665px;
-        height: 100px;
+        height: 200px;
         display: flex;
         justify-content: center;
         align-items: flex-end;
@@ -308,13 +308,18 @@ footer{
     }
 
     .btn_copiar{
-        display: none;
+        position: relative;
     }
 
+ 
     .evaluar{
         width: 100%;
         height: auto;
         padding: 5px;
+    }
+
+    .texto_dos{
+        padding: 20px;
     }
 
     footer{
