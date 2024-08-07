@@ -31,6 +31,7 @@ btnEncriptar.addEventListener("click", e=>{
         texto =texto.replace(/u/g, "ufat");
 
         respuesta.innerHTML = texto;
+        btnCopiar.style.visibility = "inherit";
         contenido.remove();
     }
 });
@@ -60,6 +61,7 @@ btnDesencriptar.addEventListener("click", e=>{
         texto =texto.replace(/ufat/g, "u");
 
         respuesta.innerHTML = texto;
+        btnCopiar.style.visibility = "inherit";
         contenido.remove();
     }
 });
